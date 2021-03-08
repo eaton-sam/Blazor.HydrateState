@@ -1,0 +1,6 @@
+﻿@using System.Text.Json
+@inject StateHydrator StateHydrator
+
+<script id="hydrateState-data" type="application/json" suppress-error="BL9992">
+    @((MarkupString)JsonSerializer.Serialize(StateHydrator.GetStates()))
+</script>

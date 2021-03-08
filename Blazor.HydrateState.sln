@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.HydrateState", "src\Blazor.HydrateState\Blazor.HydrateState.csproj", "{EA4C8B10-F8C8-4D51-8436-0FEA1C85FEB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Server", "examples\BasicCustom\Server\BlazorApp.Server.csproj", "{462434D8-DB88-4252-B468-A4B920A81B7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Client", "examples\BasicCustom\Client\BlazorApp.Client.csproj", "{55D7C5EF-EEF8-4E2B-B1A1-31FB47A58564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Shared", "examples\BasicCustom\Shared\BlazorApp.Shared.csproj", "{1F1BA9CA-9E4E-4FB4-8845-176354728B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{F5ED95AE-5D4F-422B-A8B2-D6E3A6ECB4C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD272016-9CD1-4058-A479-A0F6861241DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicCustom", "BasicCustom", "{0D82F893-A837-4095-BEFB-F5BBAE42628B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4C8B10-F8C8-4D51-8436-0FEA1C85FEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4C8B10-F8C8-4D51-8436-0FEA1C85FEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4C8B10-F8C8-4D51-8436-0FEA1C85FEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4C8B10-F8C8-4D51-8436-0FEA1C85FEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462434D8-DB88-4252-B468-A4B920A81B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462434D8-DB88-4252-B468-A4B920A81B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462434D8-DB88-4252-B468-A4B920A81B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462434D8-DB88-4252-B468-A4B920A81B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D7C5EF-EEF8-4E2B-B1A1-31FB47A58564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D7C5EF-EEF8-4E2B-B1A1-31FB47A58564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D7C5EF-EEF8-4E2B-B1A1-31FB47A58564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D7C5EF-EEF8-4E2B-B1A1-31FB47A58564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1BA9CA-9E4E-4FB4-8845-176354728B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1BA9CA-9E4E-4FB4-8845-176354728B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1BA9CA-9E4E-4FB4-8845-176354728B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1BA9CA-9E4E-4FB4-8845-176354728B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA4C8B10-F8C8-4D51-8436-0FEA1C85FEB0} = {AD272016-9CD1-4058-A479-A0F6861241DA}
+		{462434D8-DB88-4252-B468-A4B920A81B7D} = {0D82F893-A837-4095-BEFB-F5BBAE42628B}
+		{55D7C5EF-EEF8-4E2B-B1A1-31FB47A58564} = {0D82F893-A837-4095-BEFB-F5BBAE42628B}
+		{1F1BA9CA-9E4E-4FB4-8845-176354728B5C} = {0D82F893-A837-4095-BEFB-F5BBAE42628B}
+		{0D82F893-A837-4095-BEFB-F5BBAE42628B} = {F5ED95AE-5D4F-422B-A8B2-D6E3A6ECB4C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C25C82A4-CCE9-409D-903F-CE7FD49A825B}
+	EndGlobalSection
+EndGlobal
