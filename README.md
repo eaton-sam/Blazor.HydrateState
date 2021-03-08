@@ -1,6 +1,6 @@
 # Blazor.HydrateState
 
-## State hydration for Blazor server pre-rendered apps
+## State hydration for server pre-rendered Blazor WASM apps
 
 When you pre-render a Blazor App on the server, your application state is never sent to the client. Once your app loads in the browser it has to fetch data from your API to repopulate state. This causes your UI to flash, and means often unnecessary extra API calls.
 
