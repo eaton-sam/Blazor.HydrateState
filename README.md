@@ -7,7 +7,14 @@ When you pre-render a Blazor App on the server, your application state is never 
 Blazor.HydrateState will dehydrate your state on backend render, and rehydrate it on the frontend. Which is a silly way of saying that it serializes your state and deserializes it again.
 
 <details>
-  <summary>Demonstration</summary
+  <summary>Blazor pre-rendering resources</summary>
+  
+  - https://andrewlock.net/enabling-prerendering-for-blazor-webassembly-apps/ 
+  - https://jonhilton.net/blazor-wasm-prerendering/
+</details>
+
+<details>
+  <summary>GIF Demonstration</summary
     
   Blazor WASM only:
   ![wasm.gif](https://s4.gifyu.com/images/wasm.gif)
