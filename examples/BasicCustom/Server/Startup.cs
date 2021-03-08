@@ -37,7 +37,10 @@ namespace BlazorApp.Server
 
             services.AddStateHydrator(options =>
             {
+                //pass an action to retrieve your state instance
                 options.Add<WeatherState>(sp => sp.GetService<StateProvider<WeatherState>>().Value);
+                //without an action it will attempt to resolve the type from DI
+                //options.Add<WeatherState>();
             });
         }
 
@@ -67,6 +70,7 @@ namespace BlazorApp.Server
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
                 endpoints.MapFallbackToPage("/_Host");
+                //endpoints.MapFallbackToFile("index.html");
             });
         }
     }
