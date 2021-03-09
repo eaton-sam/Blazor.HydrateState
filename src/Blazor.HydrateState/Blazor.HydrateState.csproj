@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <Authors>Sam Eaton</Authors>
+    <PackageProjectUrl>https://github.com/eaton-sam/Blazor.HydrateState/</PackageProjectUrl>
+    <Description>State hydration for server pre-rendered Blazor WASM apps</Description>
+    <RepositoryUrl>https://github.com/eaton-sam/Blazor.HydrateState/</RepositoryUrl>
   </PropertyGroup>
 
   
