@@ -28,6 +28,8 @@ Blazor.HydrateState will dehydrate your state on backend render, and rehydrate i
 
 
 ## Usage
+[Install via Nuget](https://www.nuget.org/packages/Blazor.HydrateState/)
+
 The following example can be found in full at [examples/BasicCustom](examples/BasicCustom)
 
 Consider you have a record class ``WeatherState``, which holds weather forecasts. You may also have a class ``StateProvider<T>`` which handles state access, updates, and firing change events to components.
