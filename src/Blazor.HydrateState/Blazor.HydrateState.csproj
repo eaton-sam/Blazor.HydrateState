@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -7,6 +7,8 @@
     <PackageProjectUrl>https://github.com/eaton-sam/Blazor.HydrateState/</PackageProjectUrl>
     <Description>State hydration for server pre-rendered Blazor WASM apps</Description>
     <RepositoryUrl>https://github.com/eaton-sam/Blazor.HydrateState/</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>blazor</PackageTags>
   </PropertyGroup>
 
   
