@@ -28,9 +28,9 @@ Blazor.HydrateState will dehydrate your state on backend render, and rehydrate i
 
 
 ## Usage
-The following example can be found in full at /examples/BasicCustom
+The following example can be found in full at [examples/BasicCustom](examples/BasicCustom)
 
-Consider you have a class ``WeatherState``, which holds weather forecasts. You may also have a class ``StateProvider<T>`` which handles state access, updates and firing change events to components.
+Consider you have a record class ``WeatherState``, which holds weather forecasts. You may also have a class ``StateProvider<T>`` which handles state access, updates, and firing change events to components.
 
 <details>
   <summary>WeatherState.cs</summary>
@@ -77,7 +77,7 @@ In your options action, you should add any state you wish to rehydrate on the fr
 ```csharp
 services.AddStateHydrator(options =>
 {
-    //this will attempt to resolve the type from DI service collection
+    //no function - resolve the type from DI using ServiceProvider
     options.Add<WeatherState>();
     //pass a function to retrieve your state instance
     options.Add<WeatherState>(sp => sp.GetService<StateProvider<WeatherState>>().Value);
@@ -111,4 +111,4 @@ Your component will then render on the client with the same state as the backend
 In your components you can check if your state is populated in your init, skipping some API requests on the client entirely.
 
 
-Check the example for better context.
+Check the example for more context.
