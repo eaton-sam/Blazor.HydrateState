@@ -6,6 +6,8 @@ When you pre-render a Blazor App on the server, your application state is never 
 
 Blazor.HydrateState will dehydrate your state on backend render, and rehydrate it on the frontend. Which is a silly way of saying that it serializes your state and deserializes it again.
 
+[It seems microsoft are adding a built in solution with .NET 6!](https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-2/#preserve-prerendered-state-in-blazor-apps)
+
 <details>
   <summary>Blazor pre-rendering resources</summary>
   
