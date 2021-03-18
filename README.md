@@ -83,6 +83,7 @@ services.AddStateHydrator(options =>
 {
     //no function - resolve the type from DI using ServiceProvider
     options.Add<WeatherState>();
+    //OR
     //pass a function to retrieve your state instance
     options.Add<WeatherState>(sp => sp.GetService<StateProvider<WeatherState>>().Value);
 });
